@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#Script used to generate bert .bam file
+#note that the file commands2.txt file is called with GNU parallel
+#I know that I am only running the paralelle pipeline on one sample
+#Other sample unrealted to this study were run along side but taken out of the code for github
+
 #PBS -l walltime=13:00:00,nodes=1:ppn=8,pmem=2500mb
 #PBS -V
 #PBS -N Bert_job
