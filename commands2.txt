@@ -1,0 +1,1 @@
+Fastq2ReadmapGmaxV2.sh -f /panfs/roc/scratch/michnoj0/Bert/BertMN-01Plant1_GTGGCC_R1.fastq -r /panfs/roc/scratch/michnoj0/Bert/BertMN-01Plant1_GTGGCC_R2.fastq -a GTGGCC -t 8 -o /panfs/roc/scratch/michnoj0/CRISPR_WPT/Results
