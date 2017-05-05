@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Script that was used to submit jobs to go from .fastq files to .bam files
 #PBS -l walltime=72:00:00,nodes=1:ppn=24,pmem=2500mb
 #PBS -V
 #PBS -N WPT_job
