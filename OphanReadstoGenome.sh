@@ -1,3 +1,6 @@
+#This was ran locally on a machine using bowtie two to go from
+#orphan read pairs that did not map to the trasngene, to the reference genome
+
 bowtie2 \
 --local \
 --very-sensitive-local \
