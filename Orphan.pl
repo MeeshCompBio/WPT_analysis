@@ -42,7 +42,7 @@ my ($mateMapped1, $mateMapped2);
 my $flag = 0;
 my @samFieldsMate1 =(); my @samFieldsMate2 = ();
 
-
+#modified this file to take in stardard in
 while(my $readTGHIT = <STDIN>) #### reading the sam file with transgene hits only; this file is already sorted by name
 {
   if(($readTGHIT =~ /^\s*(.*?\s+){11,}/) && ($flag == 0))
