@@ -22,3 +22,4 @@ cd /panfs/roc/scratch/Scratch/CRISPR_WPT/Results/
 export PARALLEL="--workdir . --env PATH --env LD_LIBRARY_PATH --env LOADEDMODULES --env _LMFILES_ --env MODULE_VERSION --env MODULEPATH --env MODULEVERSION_STACK --env MODULESHOME --env OMP_DYNAMICS --env OMP_MAX_ACTIVE_LEVELS --env OMP_NESTED --env OMP_NUM_THREADS --env OMP_SCHEDULE --env OMP_STACKSIZE --env OMP_THREAD_LIMIT --env OMP_WAIT_POLICY"
 sort -u $PBS_NODEFILE > unique-nodelist.txt
 parallel --jobs 3 --sshloginfile unique-nodelist.txt --workdir $PWD < /panfs/roc/groups/13/stuparr/mich0391/Projects/CRISPR_WPT/Scripts/commands.txt
+parallel --jobs 3 --sshloginfile unique-nodelist.txt --workdir $PWD < /panfs/roc/groups/13/stuparr/mich0391/Projects/CRISPR_WPT/Scripts/commands2.txt
